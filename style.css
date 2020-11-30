@@ -1,7 +1,13 @@
+/* https://www.htmldog.com/guides/css/intermediate/classid/#:~:text=In%20the%20CSS%2C%20a%20class,character%20(%E2%80%9C%23%E2%80%9D).&text=The%20difference%20between%20an%20ID,to%20identify%20more%20than%20one. */
+
 body {
     background: lightyellow;
     font: 18px Arial, sans-serif;
 }
 h1 {
     color: orange;
+}
+
+.test {
+    color: green;
 }
