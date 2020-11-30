@@ -11,3 +11,10 @@ h1 {
 .test {
     color: green;
 }
+
+img {
+    width: 100; /* width of container */
+    height: 100px; /* height of container */
+    object-fit: cover;
+    border: 1px solid black;
+}
