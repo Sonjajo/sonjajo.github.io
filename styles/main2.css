@@ -7,8 +7,8 @@
     --one: #6d6875;
     --fullwidth: 100%;
 
-    --tan: #b3b3a7; /* #f2e9e4 */
-    --back: #1d3557;
+    --tan: #1d3557; /* #f2e9e4 */
+    --back: white;
     --labeler: tan;
     --linkTitles: #ffcb69;
     --links: #bdd5ea;
@@ -84,7 +84,6 @@ a:hover {
 .font-effect-anaglyph {
     font-family: 'Arial', serif;
     font-size: 48px;
-    margin-top: 20px;
 }
 
 a {  
