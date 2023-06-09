@@ -1,0 +1,53 @@
+<!-- <audio controls id="audio">
+    <source src="https://docs.google.com/uc?export=download&id=1Fc3qMwCe60ibsqZ24ooXVfdW4AQXamIk">
+</audio> -->
+
+<div class="main">
+    <audio controls id="my-audio" class="aud">
+        <source src="https://docs.google.com/uc?export=download&id=1eRwtuaYLboZdvbkpMZuUrH48kHy5-c98">
+    </audio>
+
+    <button id="play-button" class="play"> Play</button>
+    <button id="pause-button" class="pause">Pause</button>
+
+    <script>
+        var myAudio = document.getElementById('my-audio');
+        var playButton = document.getElementById('play-button');
+        var pauseButton = document.getElementById('pause-button');
+
+        playButton.addEventListener("click", function(){
+            myAudio.play();
+        });
+        pauseButton.addEventListener("click", function(){
+            myAudio.pause();
+        });
+    </script>
+</div>
+
+<style>
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 50px;
+    }
+
+    .aud {
+        display: none;
+    }
+
+    .play {
+        margin-bottom: 50px;
+        width: 500px;
+        height: 500px;
+        font-size: 130px;
+    }
+
+    .pause {
+        width: 500px;
+        height: 500px;
+        font-size: 130px;
+}
+</style>
