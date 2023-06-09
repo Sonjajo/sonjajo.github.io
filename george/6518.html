@@ -1,14 +1,28 @@
-<audio controls style="width:600px;" id="audio">
+<!-- <audio controls id="audio">
     <source src="https://docs.google.com/uc?export=download&id=1Fc3qMwCe60ibsqZ24ooXVfdW4AQXamIk">
-</audio>
+</audio> -->
+
+<div class="aud">
+
+    <audio controls id="audio">
+        <source src="https://docs.google.com/uc?export=download&id=1Fc3qMwCe60ibsqZ24ooXVfdW4AQXamIk">
+    </audio>
+
+</div>
 
 <style>
-    audio::-webkit-media-controls-play-button {
-        transform: scale(2, 2);
+
+    .aud {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 50px;
     }
 
-    audio::-webkit-media-controls-timeline {
-        height: 20px;
+    audio::-webkit-media-controls-play-button {
+        transform: scale(4, 4);
     }
 
 </style>
